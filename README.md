@@ -1,2 +1,2 @@
-# GitHub-Jobs---Insight-Lab---Sele-o
+# GitHub Jobs - Insight Lab - Seleção
 Desafio front-end para a bolsa oferecida pelo Insight Lab.
