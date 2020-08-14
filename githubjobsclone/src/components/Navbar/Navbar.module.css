@@ -1,0 +1,31 @@
+.mainContainer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B7FC3;
+    position: fixed;
+    box-shadow: 0px 0px 10px #0000199d;
+    height: 50px;
+}
+
+.navbarContainer {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.linksContainer {
+    display: flex;
+    width: 220px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linksContainer a {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+}
