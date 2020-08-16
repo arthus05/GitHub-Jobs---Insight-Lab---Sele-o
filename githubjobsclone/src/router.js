@@ -7,27 +7,25 @@ import {
 } from 'react-router-dom';
 
 // Components
-import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 
 // Pages
-import homePage from './pages/homePage/homePage';
+import HomePage from './pages/HomePage/HomePage';
 
 // Reducers
 import { useSelector, useDispatch } from 'react-redux';
 import store from './Store';
+import SearchBar from './components/SearchBar/SearchBar';
 
 export default function Routes() {
-    const viewSite = useSelector( state => state.viewSide );
 
     return(
         <Router>
             <div>
                 <Navbar />
                 <Switch>
-                    <Route path="/" exact component={homePage} />
+                    <Route path="/" exact component={HomePage} />
                 </Switch>
-                <Footer />
             </div>
         </Router>
     )

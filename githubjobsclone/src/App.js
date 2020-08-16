@@ -8,10 +8,16 @@ import Router from './router';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 
-export default function App() {
-  return (
-    <Provider store={ store }>
-      <Router />
-    </Provider>
-  );
+function App() {
+    return (
+        <Provider store={ store }>
+            {console.log('MORTE')}
+            {console.log(store)}
+            {console.log('DESTRUIÇÃAO')}
+            <Router />
+        </Provider>
+    );
 }
+
+
+export default App;

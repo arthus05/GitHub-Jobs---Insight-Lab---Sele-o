@@ -1,0 +1,21 @@
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContainer h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #294455;
+    font-size: 30px;
+}
+
+.mainContainer div {
+    width: 500px;
+    border-bottom: 1px solid #ddd;
+}
+
+

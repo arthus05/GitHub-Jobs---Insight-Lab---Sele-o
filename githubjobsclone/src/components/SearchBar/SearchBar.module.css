@@ -1,0 +1,85 @@
+.mainContainer {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 5px 0px 5px -2px #00001918;
+}
+
+.formContainer {
+    margin-top: 36px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputContainer {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.inputContainer input {
+    padding: 0 10px;
+    margin: 10px 0;
+    height: 36px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 1s all ease;
+    border-radius: 5px;
+}
+
+.checkboxContainer input:selection {
+    border: 10px solid #2B7FC3;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.checkboxContainer > div {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkboxContainer > div > input {
+    display: none;
+}
+
+.checkboxContainer > div > input + span {
+    display: inline-block;   
+    position: relative; 
+    width: 15px;   
+    height: 15px;   
+    border: 1px solid #ccc;  
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+.checkboxContainer > div > input:checked + span {
+    background-color: #2B7FC3;
+    border-radius: 50%;
+}
+
+.searchButton button {
+    padding: 8px 25px;
+    border: 1px solid #ddd;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    outline: none;
+}
+
+.searchButton button:hover {
+    background-color: #f5f5f5;
+}
+
+.searchButton button:focus {
+    background-color: #ebe9e9;
+}

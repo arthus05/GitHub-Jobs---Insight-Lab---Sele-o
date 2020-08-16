@@ -1,16 +1,20 @@
 import { createStore } from 'redux';
 
-const INIT_STATE = {
-  viewSide: false
+const SEARCH_STATE = {
+  params: {
+        description: '',
+        location: '',
+        full_time: false
+    }  
 }
 
-function changeView( state = INIT_STATE, action ){
-  switch (action.type){
-    case 'CHANGE_VIES_SIDBAR':
-      return { ...state, viewSide: !state.viewSide }
-    default:
-      return state;
-  }
+function changeView( state = SEARCH_STATE, action ){
+    switch (action.type) {
+        case 'SEARCH_PARAMS':
+            return {...state, params: action.value};    
+        default:
+            return state;
+    }
 }
 
 const store = createStore( changeView );
