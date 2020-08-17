@@ -9,6 +9,7 @@
     position: fixed;
     box-shadow: 0px 0px 10px #0000199d;
     height: 50px;
+    z-index: 1;
 }
 
 .navbarContainer {
@@ -28,4 +29,10 @@
     font-size: 13px;
     color: #ffffff;
     font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linksContainer a:hover {
+    text-decoration: underline;
 }

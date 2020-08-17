@@ -8,15 +8,11 @@ import {
 
 // Components
 import Navbar from './components/Navbar/Navbar';
+import HIWPage from './pages/HIWPage/HIWPage';
+import APIDocPage from './pages/APIDocPage/APIDocPage';
 
 // Pages
 import HomePage from './pages/HomePage/HomePage';
-
-// Reducers
-import { useSelector, useDispatch } from 'react-redux';
-import store from './Store';
-import SearchBar from './components/SearchBar/SearchBar';
-
 export default function Routes() {
 
     return(
@@ -24,7 +20,9 @@ export default function Routes() {
             <div>
                 <Navbar />
                 <Switch>
-                    <Route path="/" exact component={HomePage} />
+                    <Route path="/" exact component={ HomePage } />
+                    <Route path='/faq' exact component={ HIWPage } />
+                    <Route path='/api' exact component={ APIDocPage }/>
                 </Switch>
             </div>
         </Router>

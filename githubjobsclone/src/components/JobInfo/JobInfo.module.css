@@ -1,0 +1,107 @@
+.mainContainer {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 16px #00000025;
+    border-radius: 30px;
+}
+
+.infoContainer {
+    margin: 20px 20px;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.title {
+    margin: 15px 30px;
+}
+
+.title h2 {
+    color: #1d80be
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContent {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    max-width: 60%;
+}
+
+.rightContent {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.companyInfo img {
+    margin-top: 10px;
+    max-height: 80px;
+    max-width: 200px;
+}
+
+.companyInfo {
+    display: flex;
+    flex-direction: column;
+    color: #444444;
+}
+
+.companyInfo > div {
+    margin-top: 20px;
+    align-self: center;
+    width: 100px;
+    border-bottom: 1px solid #ddd;
+}
+
+.companyInfo a {
+    font-size: 12px;
+    color: #444444;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.companyInfo a:hover {
+    text-decoration: underline;
+}
+
+.htApply {
+    width: 200px;
+    color: #444444;
+    overflow: hidden;
+}
+
+.htApply h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.innerHtml {
+    color: #444444;
+    font-size: 12px;
+}
+
+.innerHtml ul {
+    margin-left: 30px;
+}
+
+.innerHtml p {
+    margin: 20px 0;
+}
+
+.innerHtml a {
+    text-decoration: none;
+    color: #2B7FC3;
+}
+
+.innerHtml a:hover {
+    text-decoration: underline;
+}

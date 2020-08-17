@@ -1,0 +1,62 @@
+.mainContainer {
+    min-height: 100vh;
+    display: flex;
+    background-color: #F5F5F5;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    width: 64%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 12px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 3px #00001918;
+}
+
+.content {
+    margin: 50px 0 50px 30px;
+    width: 650px;
+}
+
+.content span {
+    color: #1D9A00;
+    font-weight: 500;
+}
+
+.content p, .content h2, .content h3 {
+    margin: 16px 0;
+}
+
+.content a {
+    text-decoration: none;
+    color: #2B7FC3;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content ul {
+    margin-left: 30px;
+}
+
+.content ul li {
+    margin: 5px 0;
+}
+
+.topLine, .line {
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.line {
+    margin-top: 20px;
+    width: 500px;
+}

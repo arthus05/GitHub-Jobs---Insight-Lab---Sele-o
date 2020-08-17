@@ -12,14 +12,70 @@
 }
 
 .pageContainer {
+    margin-left: 260px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
 }
 
 .jobCardContainer {
-    width: 50%;
-    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .headerContainer {
     width: inherit;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer button {
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    fill: #294455;
+    border: none;
+    outline: none;
+    background-size: cover;
+    background-color: transparent;
+    background-image: url('../../images/close.svg');
+    cursor: pointer;
+}
+
+.jobInfo {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+}
+
+.paginateButton {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.paginateButton button {
+    height: 30px;
+    width: 150px;
+    color: #FFFFFF;
+    background-color: #2B7FC3;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px 3px #00000034;
+}
+
+.paginateButton button:hover {
+    background-color: #2369a3;
+}
+
+.paginateButton button:active {
+    background-color: #215f92;
 }
