@@ -1,19 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import store from '../../Store';
+import React from 'react';
+import { useDispatch } from 'react-redux';
 
 // Components
-import JobInfo from '../JobCard/JobCard';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
 // Syles
 import styles from './JobCard.module.css';
-
-// API
-import API from '../../API';
-
-
 
 export default function JobCard({
     jobTitle,

@@ -17,6 +17,15 @@
     flex-direction: column;
 }
 
+.formContainer label {
+    font-weight: 500;
+    color: #444444;
+}
+
+.checkboxLabel {
+    font-size: 14px;
+}
+
 .inputContainer {
     margin-bottom: 5px;
     display: flex;
@@ -32,6 +41,7 @@
     outline: none;
     transition: 1s all ease;
     border-radius: 5px;
+    color: #444444
 }
 
 .checkboxContainer input:selection {

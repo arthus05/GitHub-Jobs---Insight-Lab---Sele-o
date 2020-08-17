@@ -1,12 +1,10 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import store from '../../Store';
 
 // Styles
 import styles from './HomePage.module.css';
 
 // Components
-import { Pagination } from '@material-ui/lab'
 import TitleComponent from '../../components/TitleComponent/TitleComponent';
 import Footer from '../../components/Footer/Footer';
 import SearchBar from '../../components/SearchBar/SearchBar';

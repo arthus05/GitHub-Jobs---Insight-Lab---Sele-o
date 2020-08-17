@@ -31,7 +31,7 @@ export default function JobInfo({
                     <section className={ styles.rightContent }>
                         <div className={ styles.companyInfo }>
                             <h4>{ companyName }</h4>
-                            <a href={ companyURL } target='blank'><img src={ image } /></a>
+                            <a href={ companyURL } target='blank'><img alt='company' src={ image } /></a>
                             <div></div>
                         </div>
                         <div className={ styles.htApply }>

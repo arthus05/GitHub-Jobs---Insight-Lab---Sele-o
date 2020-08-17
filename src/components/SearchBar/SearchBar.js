@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import styles from './SearchBar.module.css';
 
 // Components
-import HomePage from '../../pages/HomePage/HomePage';
 import Modal from 'react-modal';
 
 // Images
@@ -76,7 +75,7 @@ export default function SearchBar() {
                             <input checked={ onCheck } type='checkbox' name='checkbox'/>
                             <span></span>
                         </div>
-                        <label for='checkbox'>Full Time Only</label>
+                        <label className={ styles.checkboxLabel } for='checkbox'>Full Time Only</label>
                     </div>
 
                     <div className={ styles.searchButton }>

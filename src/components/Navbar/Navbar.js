@@ -4,8 +4,6 @@ import { useDispatch } from 'react-redux';
 
 import styles from './Navbar.module.css';
 
-import SearchBar from '../SearchBar/SearchBar';
-
 export default function Navbar() {
 
     const dispatch = useDispatch();
@@ -26,7 +24,7 @@ export default function Navbar() {
         <div className={ styles.mainContainer }>
             <header className={ styles.navbarContainer }>
                 <Link to='/' onClick={ () => onSubmit() }>
-                    <img src='https://jobs.github.com/images/layout/logo.png'/>
+                    <img alt='gitHubJobs logo' src='https://jobs.github.com/images/layout/logo.png'/>
                 </Link>
                 <nav className={ styles.linksContainer }>
                     <Link to='/' onClick={ () => onSubmit() }>All jobs</Link>
